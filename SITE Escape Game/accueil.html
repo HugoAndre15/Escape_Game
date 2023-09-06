@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Ultimate Escape | Accueil</title>  
+    <link href="accueil.css" rel="stylesheet" type="text/css"/> 
+    <link rel="icon" type="image/png" href="logo.png" />
+  </head>
+    <body>
+        <header>
+            <div class="logo-text">
+                <a href="accueil.html" ><img class="logo" src="logo.png" alt="logo" ></a>
+                <h1 ><a href="accueil.html" class="logo">Ultimate Escape</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Missions.html">Missions</a></li>
+                    <li><a href="réservations.html">Réservations</a></li>
+                    <li><a href="forum.html">Forum</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                </ul>
+            </nav>
+        </header>
+        <span id="sl_play" class="sl_command"></span>
+        <span id="sl_pause" class="sl_command"></span>
+        <span id="sl_i1" class="sl_command sl_i"></span>
+        <span id="sl_i2" class="sl_command sl_i"></span>
+        <span id="sl_i3" class="sl_command sl_i"></span>
+        <span id="sl_i4" class="sl_command sl_i"></span>
+
+        <section id="slideshow">
+          <a class="play_commands pause" href="#sl_pause" title="Maintain paused">Pause</a>
+          <a class="play_commands play" href="#sl_play" title="Play the animation">Play</a>
+          <a class="commands prev commands1" href="#sl_i4" title="Aller à la dernière slide">&lt;</a>
+          <a class="commands next commands1" href="#sl_i2" title="Aller à la 2ème slide">&gt;</a>
+          <a class="commands prev commands2" href="#sl_i1" title="Aller à la 1ère slide">&lt;</a>
+          <a class="commands next commands2" href="#sl_i3" title="Aller à la 3ème slide">&gt;</a>
+          <a class="commands prev commands3" href="#sl_i2" title="Aller à la 2ème slide">&lt;</a>
+          <a class="commands next commands3" href="#sl_i4" title="Aller à la 4ème slide">&gt;</a>
+          <a class="commands prev commands4" href="#sl_i3" title="Aller à la 3ème slide">&lt;</a>
+          <a class="commands next commands4" href="#sl_i1" title="Aller à la 1ère slide">&gt;</a>
+          <div class="container">
+            <div class="c_slider"></div>
+            <div class="slider">
+              <figure>
+                <img src="accueil1.jpg" alt="HarryPotter" width="850" height="480" />
+              </figure>
+              <figure>
+                <img src="accueil2.jpg" alt="Zombie" width="850" height="480" />
+              </figure>
+              <figure>
+                <img src="accueil3.jpg" alt="Atelier tesla" width="850" height="480" />
+              </figure>
+              <figure>
+                <img src="accueil4.jpg" alt="Escape Game" width="850" height="480" />
+              </figure>
+            </div>
+          </div>
+          
+          <span id="timeline"></span>
+          
+          <ul class="dots_commands">
+            <li><a title="Afficher la slide 1" href="#sl_i1">Slide 1</a></li>
+            <li><a title="Afficher la slide 2" href="#sl_i2">Slide 2</a></li>
+            <li><a title="Afficher la slide 3" href="#sl_i3">Slide 3</a></li>
+            <li><a title="Afficher la slide 4" href="#sl_i4">Slide 4</a></li>
+          </ul>
+          
+        </section>
+
+        <div id="présentation">
+          <h2>Ultimate Escape</h2>
+          <p>
+            Nous faisons de l’Escape Game depuis maintenant 5 ans, 
+            et le succès a tout de suite été là. 8 salles à remplir !<br>
+            Créateur d'envie, conditions de jeu excellente, 
+            la qualité du décor et le niveau d’immersion extraordinaire !<br>
+            Nous proposons 6 missions différentes que nous renouvelons tous les 6 mois,<br>
+            dont deux sur deux salles, 
+            afin de permettre des battles entre vous et vos amis !
+          </p>
+        </div>
+
+        <hr noshade width="400" size="1" align="center">
+
+        <div class="les-images">
+          <div class="zombie">
+              <a href="zombie.html"><img src="zombie.jpg" alt="zombie"></a>
+                  <h3 class="Titre">
+                      <a href="zombie.html"><strong>Zombie Apocalypse</strong></a>
+                  </h3>
+                  <hr noshade width="220" size="1" align="center">
+                  <p>
+                      Prix: À partir de 25€/pers <br> Durée: 1h00
+                  </p>
+                  <div class="button-mission">
+                      <p>
+                          <a href="zombie.html" class="button">À propos</a> 
+                      </p>
+                  </div>
+          </div>
+
+          <div class="tesla">
+              <a href="tesla.html"><img class="image2" src="tesla.jpg" alt="tesla"></a>
+                  <h3 class="Titre">
+                      <a href="tesla.html"><strong>L'atelier de Tesla</strong></a>
+                  </h3>
+                  <hr noshade width="220" size="1" align="center">
+                  <p>
+                      Prix: À partir de 25€/pers <br> Durée: 1h15
+                  </p>
+                  <div class="button-mission">
+                      <p>
+                          <a href="tesla.html" class="button">À propos</a> 
+                      </p>
+                  </div>
+          </div>
+
+          <div class="HarryPotter">
+              <a href="HarryPotter.html"><img class="image3" src="HarryPotter.jpg" alt="Harry Potter"></a>
+                  <h3 class="Titre">
+                      <a href="HarryPotter.html"><strong>La Chambre des Secrets</strong></a>
+                  </h3>
+                  <hr noshade width="220" size="1" align="center">
+                  <p>
+                      Prix: À partir de 25€/pers <br> Durée: 1h45
+                  </p>
+                  <div class="button-mission">
+                      <p>
+                          <a href="HarryPotter.html" class="button">À propos</a>  
+                      </p>
+                  </div>
+          </div>
+      </div>
+
+      <div id="prix">
+        <div class="images">
+          <a href="réservations.html"><img src="3pers.png" alt="3personnnes" width="161" height="161" /></a>
+          <h3>3 Personnes</h3>
+          <p><strong>25€/pers</strong></p>
+        </div>
+        <div class="images">
+          <a href="réservations.html"><img src="4pers.png" alt="4personnes" width="161" height="161" /></a>
+          <h3>4 Personnes</h3>
+          <p><strong>22€/pers</strong></p>
+        </div>
+        <div class="images">
+          <a href="réservations.html"><img src="5pers.png" alt="5personnes" width="161" height="161" /></a>
+          <h3>5 Personnes</h3>
+          <p><strong>20€/pers</strong></p>
+        </div>
+      </div>
+
+      <hr noshade width="400" size="1" align="center">
+
+      <div id="partenaire">
+        <h1>Notre Partenaire</h1>
+        <p>
+          Nous possédons un partenaire à Aix-en-Provence qui a son propre <a href="https://mystery-games.fr/"><strong>site</strong></a>.<br>
+          Il propose de nombreuses missions diverses et variées qui sont totalement
+          différentes des nôtres.<br>
+          N'hésitez pas à faire un tour sur leur <a href="https://mystery-games.fr/"><strong>site</strong></a> !
+        </p>
+      </div>
+
+      <footer>
+        <div class="footer">
+            <p>
+            © 2020-2021 | Ultimate Escape. All Rights Reserved
+            </p>
+        </div>
+        <div class="réseaux">
+          <a href="https://www.instagram.com/ultimate.escape13" target="_blank">Instagram </a> <span>|</span> <a href="https://twitter.com/UltimateEscape" target="_blank"> Twitter</a>
+      </div>
+      </footer>
+    </body>
+</html>
